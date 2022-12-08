@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)) url("khovosgol.jpg") no-repeat;
+    text-align:  center;
+   background: rgb(52, 90, 167);
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+#contact-section{
+    
+   
+    height: 100%;
+    width: 100%;
+    padding-bottom: 2%;
+
+}
+#contact-section .container h2{
+    
+    text-align: center;
+    text-decoration: underline;
+    text-underline-position: under;
+    color: rgb(238,235,235);
+    letter-spacing: 2px;
+}
+#contact-section .container p{
+    text-align: center;
+    width: 70%;
+    margin-left: auto;
+   margin-right: auto;
+    padding-bottom: 3%;
+    color: #FFF;
+    letter-spacing: 3px;
+}
+.conact-form i.fa{
+    font-size: 22px;
+    padding: 3%;
+    background-color: none;
+    margin: 2;
+    border-radius: 80%;
+    cursor: pointer;
+    border: 2px solid rgb(238,235,235);
+    color: rgb(238,235,235)
+}
+
+.contact-form i.fa:hover{
+    cursor: pointer;
+    border: 2px solid #FFF;
+    color: #fff;
+}
+.contact-form{
+    display: grid;
+    grid-template-columns: auto auto;
+
+}
+.Submit{
+    display: flex;
+    align-items: center;
+    margin-left: 200px;
+    background-color: #4CAF50;
+    border: 0;
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    position: relative;
+}
+
+.form-info{
+    font-size: 16px;
+    font-style: italic;
+    color: #FFF;
+    letter-spacing: 2px;
+
+}
+input{
+    padding: 10px;
+    margin: 10px;
+    width: 70%;
+    background-color: rgba(130,133,133,0.5);
+    color:black;
+    border: none;
+    outline: none;
+}
+input::placeholder{
+    color:#FFF
+}
+textarea{
+    padding: 10px;
+    margin: 10px;
+    width: 70%;
+    background-color: rgba(130,133,133,0.5);
+    color:black;
+    border: none;
+    outline: none;
+}
+textarea::placeholder{
+    color:#FFF
+}
+
+.submit:hover{
+        color: #ff7200;
+        
+    }
+
